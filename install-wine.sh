@@ -9,6 +9,8 @@
 echo "Build Start"
 git clone git://source.winehq.org/git/wine.git
 cd wine
+apt-get update
+apt-get install build-essential
 ./configure
 ./make
 
