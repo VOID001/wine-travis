@@ -6,7 +6,8 @@
 # Created Time: Mon 22 Jun 2015 10:52:42 AM CST
 #########################################################################
 #!/bin/bash
-
+echo "Build Start"
 git clone git://source.winehq.org/git/wine.git
 ./configure
 ./make
+
